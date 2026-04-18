@@ -326,20 +326,5 @@ The optimized model achieved **83.86% accuracy** on intent classification:
 | **Recall** | **0.839** | 0.75+ target | 
 | **Loss** | **1.778** | <2.0 target |
 
-### Training Progression
 
-| Epoch | Accuracy | F1 Score | Precision | Recall | Loss |
-|--------|----------|-----------|-----------|--------|------|
-| 2.2 | 69.06% | 0.649 | 0.683 | 0.690 | 2.930 |
-| 4.4 | **83.86%** | **0.818** | **0.836** | **0.839** | **1.778** |
-
-
-### Real-World Performance Indicators
-
-- **Intent Recognition**: 83.86% accuracy for user queries
-- **Customer Satisfaction**: Significantly improved response accuracy
-- **Support Efficiency**: Reduced fallback responses by ~50%
-- **Response Quality**: High precision (83.6%) reduces false positives
-- **Coverage**: High recall (83.9%) captures most user intents
-- **Production Ready**: Model meets enterprise-grade accuracy standards
 
