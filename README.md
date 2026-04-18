@@ -283,8 +283,8 @@ Training scripts are located in `backend/training/`:
 ### Training Results
 The optimized model achieved **83.86% accuracy** on intent classification:
 
-| Metric | Value | Achievement |
-|--------|--------|-------------|
+| Metric | Value | 
+|--------|--------|
 | **Accuracy** | **83.86%** |
 | **F1 Score** | **0.818** |
 | **Precision** | **0.836** | 
