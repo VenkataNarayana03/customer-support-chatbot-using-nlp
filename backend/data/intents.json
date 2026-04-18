@@ -1,0 +1,1835 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hey there",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hello there",
+        "hi support",
+        "hello support",
+        "hi team",
+        "hey support team",
+        "greetings",
+        "hiya",
+        "yo",
+        "can you help me",
+        "i need some help",
+        "is anyone there",
+        "support please",
+        "hello can someone help me",
+        "good day",
+        "nice to meet you"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "thank you",
+        "thanks for your help goodbye",
+        "bye",
+        "goodbye",
+        "see you",
+        "talk to you later",
+        "bye for now",
+        "catch you later",
+        "have a nice day",
+        "thanks bye",
+        "that is all goodbye",
+        "okay bye",
+        "see you later",
+        "thanks i am done",
+        "thank you goodbye",
+        "have a good day",
+        "we are done bye",
+        "bye support"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track my order",
+        "track order",
+        "track package",
+        "where is my package",
+        "check my order status",
+        "can you check my order status",
+        "show my order status",
+        "i want to track my order",
+        "i want to track my package",
+        "my order has not arrived",
+        "when will my order arrive",
+        "when is my package coming",
+        "when will my package be delivered",
+        "order tracking",
+        "shipment tracking",
+        "check shipment status",
+        "locate my parcel",
+        "find my order",
+        "need order update",
+        "give me my shipping status",
+        "track order number 12345",
+        "track my shipment please",
+        "status of my recent order",
+        "order update please",
+        "i need tracking details",
+        "where did my order go",
+        "package tracking help",
+        "has my order shipped",
+        "is my order out for delivery"
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "cancel my order",
+        "i want to cancel my order",
+        "can i cancel the order",
+        "please cancel my purchase",
+        "stop my order",
+        "cancel order 12345",
+        "how do i cancel an item",
+        "is it possible to cancel my order",
+        "help me cancel my order",
+        "i placed an order by mistake",
+        "cancel my recent order",
+        "i need to cancel my package",
+        "abort my order",
+        "please stop shipping my order",
+        "can you cancel this purchase",
+        "cancel my order before shipment",
+        "order cancellation help",
+        "how can i cancel before dispatch",
+        "can i stop the order now",
+        "request order cancellation"
+      ]
+    },
+    {
+      "tag": "wrong_or_expired_product",
+      "patterns": [
+        "i received the wrong product",
+        "i recieved the wrong product",
+        "wrong product",
+        "received wrong product",
+        "recieved wrong product",
+        "wrong item",
+        "received wrong item",
+        "recieved wrong item",
+        "wrong product delivered",
+        "wrong item delivered",
+        "this is not what i ordered",
+        "i got the wrong product",
+        "i got the wrong item",
+        "my order has the wrong product",
+        "i received an expired product",
+        "i recieved an expired product",
+        "expired product",
+        "received expired product",
+        "recieved expired product",
+        "expired item",
+        "expired product delivered",
+        "my product is expired",
+        "the item is expired",
+        "i got an expired item",
+        "product expiry date is over",
+        "product is past expiry date",
+        "wrong or expired product complaint",
+        "replace wrong product",
+        "replace expired product",
+        "refund for expired product",
+        "refund for wrong product",
+        "i received a damaged product",
+        "i recieved a damaged product",
+        "damaged product",
+        "received damaged product",
+        "my product is damaged",
+        "item is damaged",
+        "broken item",
+        "received broken product",
+        "product arrived damaged",
+        "my order is damaged"
+      ]
+    },
+    {
+      "tag": "faq_reset_my_password",
+      "patterns": [
+        "how do i reset my password?",
+        "how do i reset my password",
+        "reset password",
+        "question about reset password",
+        "help with reset password"
+      ]
+    },
+    {
+      "tag": "faq_forgot_my_password_and_cannot_log_in",
+      "patterns": [
+        "i forgot my password and cannot log in.",
+        "i forgot my password and cannot log in",
+        "forgot password cannot log",
+        "question about forgot password cannot log",
+        "help with forgot password cannot log"
+      ]
+    },
+    {
+      "tag": "faq_change_my_email_address",
+      "patterns": [
+        "how do i change my email address?",
+        "how do i change my email address",
+        "change email address",
+        "question about change email address",
+        "help with change email address"
+      ]
+    },
+    {
+      "tag": "faq_change_my_username",
+      "patterns": [
+        "how do i change my username?",
+        "how do i change my username",
+        "change username",
+        "question about change username",
+        "help with change username"
+      ]
+    },
+    {
+      "tag": "faq_update_my_phone_number",
+      "patterns": [
+        "how do i update my phone number?",
+        "how do i update my phone number",
+        "update phone number",
+        "question about update phone number",
+        "help with update phone number"
+      ]
+    },
+    {
+      "tag": "faq_change_my_delivery_address_after_placing_an_order",
+      "patterns": [
+        "how do i change my delivery address after placing an order?",
+        "how do i change my delivery address after placing an order",
+        "change delivery address after placing order",
+        "question about change delivery address after placing order",
+        "help with change delivery address after placing order"
+      ]
+    },
+    {
+      "tag": "faq_account_is_locked_what_should_i_do",
+      "patterns": [
+        "my account is locked. what should i do?",
+        "my account is locked what should i do",
+        "account locked should",
+        "question about account locked should",
+        "help with account locked should"
+      ]
+    },
+    {
+      "tag": "faq_delete_my_account",
+      "patterns": [
+        "how do i delete my account?",
+        "how do i delete my account",
+        "delete account",
+        "question about delete account",
+        "help with delete account",
+        "close my account",
+        "remove my account"
+      ]
+    },
+    {
+      "tag": "faq_verify_my_email_address",
+      "patterns": [
+        "how do i verify my email address?",
+        "how do i verify my email address",
+        "verify email address",
+        "question about verify email address",
+        "help with verify email address"
+      ]
+    },
+    {
+      "tag": "faq_not_receiving_the_otp",
+      "patterns": [
+        "why am i not receiving the otp?",
+        "why am i not receiving the otp",
+        "am not receiving otp",
+        "question about am not receiving otp",
+        "help with am not receiving otp",
+        "otp not received",
+        "not getting otp",
+        "otp issue"
+      ]
+    },
+    {
+      "tag": "faq_update_notification_settings",
+      "patterns": [
+        "how can i update notification settings?",
+        "how can i update notification settings",
+        "update notification settings",
+        "question about update notification settings",
+        "help with update notification settings",
+        "notification settings",
+        "change notifications",
+        "manage alerts"
+      ]
+    },
+    {
+      "tag": "faq_unsubscribe_from_promotional_emails",
+      "patterns": [
+        "how can i unsubscribe from promotional emails?",
+        "how can i unsubscribe from promotional emails",
+        "unsubscribe promotional emails",
+        "question about unsubscribe promotional emails",
+        "help with unsubscribe promotional emails",
+        "unsubscribe emails",
+        "stop promotional emails",
+        "marketing emails off"
+      ]
+    },
+    {
+      "tag": "faq_where_can_i_track_my_order",
+      "patterns": [
+        "where can i track my order?",
+        "where can i track my order",
+        "track order",
+        "question about track order",
+        "help with track order"
+      ]
+    },
+    {
+      "tag": "faq_get_shipping_updates",
+      "patterns": [
+        "how do i get shipping updates?",
+        "how do i get shipping updates",
+        "shipping updates",
+        "question about shipping updates",
+        "help with shipping updates",
+        "shipment updates",
+        "delivery updates"
+      ]
+    },
+    {
+      "tag": "faq_how_long_does_delivery_take",
+      "patterns": [
+        "how long does delivery take?",
+        "how long does delivery take",
+        "long delivery take",
+        "question about long delivery take",
+        "help with long delivery take"
+      ]
+    },
+    {
+      "tag": "faq_offer_same_day_delivery",
+      "patterns": [
+        "do you offer same day delivery?",
+        "do you offer same day delivery",
+        "offer same day delivery",
+        "question about offer same day delivery",
+        "help with offer same day delivery",
+        "same day delivery",
+        "today delivery",
+        "deliver today",
+        "do you offer same-day delivery?",
+        "same day delivery please",
+        "can i get it today?",
+        "is same day shipping an option?",
+        "fastest delivery possible",
+        "get product today",
+        "instant delivery",
+        "same day dispatch",
+        "express same day delivery",
+        "can you ship it right now?"
+      ]
+    },
+    {
+      "tag": "faq_deliver_on_weekends",
+      "patterns": [
+        "do you deliver on weekends?",
+        "do you deliver on weekends",
+        "deliver weekends",
+        "question about deliver weekends",
+        "help with deliver weekends",
+        "weekend delivery",
+        "saturday delivery",
+        "sunday delivery"
+      ]
+    },
+    {
+      "tag": "faq_schedule_a_delivery_slot",
+      "patterns": [
+        "can i schedule a delivery slot?",
+        "can i schedule a delivery slot",
+        "schedule delivery slot",
+        "question about schedule delivery slot",
+        "help with schedule delivery slot",
+        "schedule delivery",
+        "delivery slot",
+        "choose delivery time"
+      ]
+    },
+    {
+      "tag": "faq_delivery_charges",
+      "patterns": [
+        "what are the delivery charges?",
+        "what are the delivery charges",
+        "delivery charges",
+        "question about delivery charges",
+        "help with delivery charges",
+        "shipping charges",
+        "delivery fee",
+        "shipping fee",
+        "how much for shipping",
+        "is delivery free?",
+        "do i have to pay for shipping?",
+        "shipping cost",
+        "tell me the shipping charges",
+        "delivery fees explained",
+        "cost of delivery",
+        "how much is shipping to my house?",
+        "shipping rates",
+        "extra charges for delivery"
+      ]
+    },
+    {
+      "tag": "faq_provide_free_shipping",
+      "patterns": [
+        "do you provide free shipping?",
+        "do you provide free shipping",
+        "provide free shipping",
+        "question about provide free shipping",
+        "help with provide free shipping",
+        "free shipping",
+        "free delivery",
+        "no shipping charge"
+      ]
+    },
+    {
+      "tag": "faq_which_locations_do_you_deliver_to",
+      "patterns": [
+        "which locations do you deliver to?",
+        "which locations do you deliver to",
+        "locations deliver",
+        "question about locations deliver",
+        "help with locations deliver",
+        "do you deliver to my location?",
+        "can you ship to my address",
+        "serviceable areas",
+        "do you ship here?",
+        "shipping to my zip code?",
+        "is delivery available in my area?",
+        "check pincode for delivery",
+        "where do you deliver?",
+        "country wide delivery?",
+        "city delivery check",
+        "do you cover my state?"
+      ]
+    },
+    {
+      "tag": "faq_ship_internationally",
+      "patterns": [
+        "do you ship internationally?",
+        "do you ship internationally",
+        "ship internationally",
+        "question about ship internationally",
+        "help with ship internationally",
+        "international shipping",
+        "ship abroad",
+        "outside country delivery"
+      ]
+    },
+    {
+      "tag": "faq_what_happens_if_i_miss_the_delivery",
+      "patterns": [
+        "what happens if i miss the delivery?",
+        "what happens if i miss the delivery",
+        "happens miss delivery",
+        "question about happens miss delivery",
+        "help with happens miss delivery"
+      ]
+    },
+    {
+      "tag": "faq_how_many_delivery_attempts_will_the_courier_make",
+      "patterns": [
+        "how many delivery attempts will the courier make?",
+        "how many delivery attempts will the courier make",
+        "many delivery attempts courier make",
+        "question about many delivery attempts courier make",
+        "help with many delivery attempts courier make"
+      ]
+    },
+    {
+      "tag": "faq_is_signature_required_on_delivery",
+      "patterns": [
+        "is signature required on delivery?",
+        "is signature required on delivery",
+        "signature required delivery",
+        "question about signature required delivery",
+        "help with signature required delivery"
+      ]
+    },
+    {
+      "tag": "faq_order_delayed",
+      "patterns": [
+        "why was my order delayed?",
+        "why was my order delayed",
+        "was order delayed",
+        "question about was order delayed",
+        "help with was order delayed",
+        "order delayed",
+        "delivery delayed",
+        "late order",
+        "why is my order delayed?",
+        "my order is late",
+        "has not arrived yet",
+        "when is my delayed order coming?",
+        "order taking too long",
+        "delivery date passed",
+        "order is stuck",
+        "shipping delay",
+        "my package is running late",
+        "why is delivery taking so much time?",
+        "where is my delayed package?",
+        "track delayed order"
+      ]
+    },
+    {
+      "tag": "faq_order_cancelled",
+      "patterns": [
+        "why was my order cancelled?",
+        "why was my order cancelled",
+        "was order cancelled",
+        "question about was order cancelled",
+        "help with was order cancelled",
+        "order cancelled",
+        "why cancelled",
+        "cancelled by seller"
+      ]
+    },
+    {
+      "tag": "faq_add_an_item_to_an_existing_order",
+      "patterns": [
+        "can i add an item to an existing order?",
+        "can i add an item to an existing order",
+        "add item existing order",
+        "question about add item existing order",
+        "help with add item existing order",
+        "add item to order",
+        "add product after order",
+        "modify order add item"
+      ]
+    },
+    {
+      "tag": "faq_split_delivery_for_my_order",
+      "patterns": [
+        "can i split delivery for my order?",
+        "can i split delivery for my order",
+        "split delivery order",
+        "question about split delivery order",
+        "help with split delivery order",
+        "split delivery",
+        "separate shipments",
+        "partial delivery"
+      ]
+    },
+    {
+      "tag": "faq_reorder_a_past_purchase",
+      "patterns": [
+        "can i reorder a past purchase?",
+        "can i reorder a past purchase",
+        "reorder past purchase",
+        "question about reorder past purchase",
+        "help with reorder past purchase",
+        "reorder item",
+        "buy again",
+        "past purchase"
+      ]
+    },
+    {
+      "tag": "faq_cancel_my_order",
+      "patterns": [
+        "can i cancel my order?",
+        "can i cancel my order",
+        "cancel order",
+        "question about cancel order",
+        "help with cancel order",
+        "stop order",
+        "cancel purchase"
+      ]
+    },
+    {
+      "tag": "faq_cancel_only_one_item_from_my_order",
+      "patterns": [
+        "can i cancel only one item from my order?",
+        "can i cancel only one item from my order",
+        "cancel only one item order",
+        "question about cancel only one item order",
+        "help with cancel only one item order",
+        "cancel one item",
+        "partial cancellation",
+        "cancel single product"
+      ]
+    },
+    {
+      "tag": "faq_cancel_a_preorder",
+      "patterns": [
+        "can i cancel a preorder?",
+        "can i cancel a preorder",
+        "cancel preorder",
+        "question about cancel preorder",
+        "help with cancel preorder",
+        "preorder cancellation",
+        "stop preorder"
+      ]
+    },
+    {
+      "tag": "faq_how_do_preorders_work",
+      "patterns": [
+        "how do preorders work?",
+        "how do preorders work",
+        "preorders work",
+        "question about preorders work",
+        "help with preorders work"
+      ]
+    },
+    {
+      "tag": "faq_when_will_my_preorder_be_charged",
+      "patterns": [
+        "when will my preorder be charged?",
+        "when will my preorder be charged",
+        "preorder charged",
+        "question about preorder charged",
+        "help with preorder charged"
+      ]
+    },
+    {
+      "tag": "faq_return_a_product",
+      "patterns": [
+        "how do i return a product?",
+        "how do i return a product",
+        "return product",
+        "question about return product",
+        "help with return product",
+        "start return",
+        "return item"
+      ]
+    },
+    {
+      "tag": "faq_return_policy",
+      "patterns": [
+        "what is the return policy?",
+        "what is the return policy",
+        "return policy",
+        "question about return policy",
+        "help with return policy",
+        "returns rules",
+        "return eligibility",
+        "what is your return policy?",
+        "return rules",
+        "how do returns work?",
+        "can i return this item?",
+        "what are the conditions for returns?",
+        "return period",
+        "how many days do i have to return?",
+        "is return possible?",
+        "tell me about returning items",
+        "policy for returning a product",
+        "can i send it back?"
+      ]
+    },
+    {
+      "tag": "faq_how_many_days_do_i_have_to_return_an_item",
+      "patterns": [
+        "how many days do i have to return an item?",
+        "how many days do i have to return an item",
+        "many days return item",
+        "question about many days return item",
+        "help with many days return item"
+      ]
+    },
+    {
+      "tag": "faq_exchange_an_item_instead_of_returning_it",
+      "patterns": [
+        "can i exchange an item instead of returning it?",
+        "can i exchange an item instead of returning it",
+        "exchange item instead returning",
+        "question about exchange item instead returning",
+        "help with exchange item instead returning",
+        "exchange item",
+        "replace item",
+        "exchange instead return"
+      ]
+    },
+    {
+      "tag": "faq_is_return_pickup_available",
+      "patterns": [
+        "is return pickup available?",
+        "is return pickup available",
+        "return pickup available",
+        "question about return pickup available",
+        "help with return pickup available"
+      ]
+    },
+    {
+      "tag": "faq_who_pays_for_return_shipping",
+      "patterns": [
+        "who pays for return shipping?",
+        "who pays for return shipping",
+        "pays return shipping",
+        "question about pays return shipping",
+        "help with pays return shipping"
+      ]
+    },
+    {
+      "tag": "faq_how_long_does_a_refund_take",
+      "patterns": [
+        "how long does a refund take?",
+        "how long does a refund take",
+        "long refund take",
+        "question about long refund take",
+        "help with long refund take",
+        "when will i get my refund?",
+        "refund timeframe",
+        "when is the refund processed?",
+        "how much time for refund?",
+        "refund timeline",
+        "is my refund initiated?",
+        "where is my refund?",
+        "refund processing time",
+        "when can i expect my money back?",
+        "refund status update",
+        "when will my money be returned?",
+        "i have not received my refund",
+        "delay in refund processing"
+      ]
+    },
+    {
+      "tag": "faq_how_do_refunds_work",
+      "patterns": [
+        "how do refunds work?",
+        "how do refunds work",
+        "refunds work",
+        "question about refunds work",
+        "help with refunds work"
+      ]
+    },
+    {
+      "tag": "faq_get_a_refund_if_my_order_is_cancelled",
+      "patterns": [
+        "can i get a refund if my order is cancelled?",
+        "can i get a refund if my order is cancelled",
+        "refund order cancelled",
+        "question about refund order cancelled",
+        "help with refund order cancelled"
+      ]
+    },
+    {
+      "tag": "faq_payment_failed_what_should_i_do",
+      "patterns": [
+        "my payment failed. what should i do?",
+        "my payment failed what should i do",
+        "payment failed should",
+        "question about payment failed should",
+        "help with payment failed should"
+      ]
+    },
+    {
+      "tag": "faq_what_payment_methods_do_you_accept",
+      "patterns": [
+        "what payment methods do you accept?",
+        "what payment methods do you accept",
+        "payment methods accept",
+        "question about payment methods accept",
+        "help with payment methods accept"
+      ]
+    },
+    {
+      "tag": "faq_offer_cash_on_delivery",
+      "patterns": [
+        "do you offer cash on delivery?",
+        "do you offer cash on delivery",
+        "offer cash delivery",
+        "question about offer cash delivery",
+        "help with offer cash delivery",
+        "cash on delivery",
+        "cod available",
+        "pay on delivery"
+      ]
+    },
+    {
+      "tag": "faq_pay_with_upi",
+      "patterns": [
+        "can i pay with upi?",
+        "can i pay with upi",
+        "pay upi",
+        "question about pay upi",
+        "help with pay upi",
+        "upi payment",
+        "pay using upi",
+        "upi checkout"
+      ]
+    },
+    {
+      "tag": "faq_pay_using_a_wallet",
+      "patterns": [
+        "can i pay using a wallet?",
+        "can i pay using a wallet",
+        "pay using wallet",
+        "question about pay using wallet",
+        "help with pay using wallet",
+        "wallet payment",
+        "pay with wallet",
+        "wallet checkout"
+      ]
+    },
+    {
+      "tag": "faq_is_emi_available",
+      "patterns": [
+        "is emi available?",
+        "is emi available",
+        "emi available",
+        "question about emi available",
+        "help with emi available"
+      ]
+    },
+    {
+      "tag": "faq_card_was_charged_twice_what_should_i_do",
+      "patterns": [
+        "my card was charged twice. what should i do?",
+        "my card was charged twice what should i do",
+        "card was charged twice should",
+        "question about card was charged twice should",
+        "help with card was charged twice should"
+      ]
+    },
+    {
+      "tag": "faq_download_an_invoice",
+      "patterns": [
+        "how do i download an invoice?",
+        "how do i download an invoice",
+        "download invoice",
+        "question about download invoice",
+        "help with download invoice",
+        "get invoice",
+        "invoice copy"
+      ]
+    },
+    {
+      "tag": "faq_get_a_gst_invoice",
+      "patterns": [
+        "can i get a gst invoice?",
+        "can i get a gst invoice",
+        "gst invoice",
+        "question about gst invoice",
+        "help with gst invoice",
+        "tax invoice",
+        "business gst bill"
+      ]
+    },
+    {
+      "tag": "faq_update_gst_details",
+      "patterns": [
+        "how do i update gst details?",
+        "how do i update gst details",
+        "update gst details",
+        "question about update gst details",
+        "help with update gst details",
+        "update gst",
+        "add gst details",
+        "gst number"
+      ]
+    },
+    {
+      "tag": "faq_how_do_bulk_orders_work",
+      "patterns": [
+        "how do bulk orders work?",
+        "how do bulk orders work",
+        "bulk orders work",
+        "question about bulk orders work",
+        "help with bulk orders work"
+      ]
+    },
+    {
+      "tag": "faq_offer_business_invoices",
+      "patterns": [
+        "do you offer business invoices?",
+        "do you offer business invoices",
+        "offer business invoices",
+        "question about offer business invoices",
+        "help with offer business invoices",
+        "business invoice",
+        "company invoice",
+        "corporate invoice"
+      ]
+    },
+    {
+      "tag": "faq_contact_support",
+      "patterns": [
+        "how can i contact support?",
+        "how can i contact support",
+        "contact support",
+        "question about contact support",
+        "help with contact support",
+        "customer care",
+        "reach support",
+        "contact customer care",
+        "customer service contact",
+        "how to contact support?",
+        "need help from support",
+        "talk to support",
+        "reach out to customer service",
+        "contact details for support",
+        "give me customer care number",
+        "email address for support",
+        "how do i get in touch with you?",
+        "help desk contact",
+        "service phone number"
+      ]
+    },
+    {
+      "tag": "faq_what_are_your_support_hours",
+      "patterns": [
+        "what are your support hours?",
+        "what are your support hours",
+        "support hours",
+        "question about support hours",
+        "help with support hours"
+      ]
+    },
+    {
+      "tag": "faq_have_phone_support",
+      "patterns": [
+        "do you have phone support?",
+        "do you have phone support",
+        "phone support",
+        "question about phone support",
+        "help with phone support"
+      ]
+    },
+    {
+      "tag": "faq_report_a_damaged_item",
+      "patterns": [
+        "how do i report a damaged item?",
+        "how do i report a damaged item",
+        "report damaged item",
+        "question about report damaged item",
+        "help with report damaged item",
+        "damaged item",
+        "damaged product",
+        "report damage"
+      ]
+    },
+    {
+      "tag": "faq_item_is_missing_from_my_order",
+      "patterns": [
+        "what if an item is missing from my order?",
+        "what if an item is missing from my order",
+        "item missing order",
+        "question about item missing order",
+        "help with item missing order",
+        "missing item",
+        "item missing",
+        "incomplete order"
+      ]
+    },
+    {
+      "tag": "faq_received_the_wrong_product",
+      "patterns": [
+        "what should i do if i received the wrong product?",
+        "what should i do if i received the wrong product",
+        "should received wrong product",
+        "question about should received wrong product",
+        "help with should received wrong product",
+        "wrong product",
+        "wrong item received",
+        "not what i ordered"
+      ]
+    },
+    {
+      "tag": "faq_received_the_wrong_item",
+      "patterns": [
+        "i received the wrong item.",
+        "i received the wrong item",
+        "received wrong item",
+        "question about received wrong item",
+        "help with received wrong item",
+        "wrong item",
+        "wrong product delivered"
+      ]
+    },
+    {
+      "tag": "faq_received_an_expired_product",
+      "patterns": [
+        "what should i do if i received an expired product?",
+        "what should i do if i received an expired product",
+        "should received expired product",
+        "question about should received expired product",
+        "help with should received expired product",
+        "expired product",
+        "expired item",
+        "product expiry date is over",
+        "received expired product"
+      ]
+    },
+    {
+      "tag": "faq_change_the_size_after_ordering",
+      "patterns": [
+        "can i change the size after ordering?",
+        "can i change the size after ordering",
+        "change size after ordering",
+        "question about change size after ordering",
+        "help with change size after ordering",
+        "change size",
+        "wrong size ordered",
+        "size change after order"
+      ]
+    },
+    {
+      "tag": "faq_check_product_availability",
+      "patterns": [
+        "how do i check product availability?",
+        "how do i check product availability",
+        "check product availability",
+        "question about check product availability",
+        "help with check product availability",
+        "product availability",
+        "is item available",
+        "check stock",
+        "is this product available?",
+        "product stock status",
+        "is it in stock?",
+        "do you have this available?",
+        "check stock for me",
+        "out of stock?",
+        "when will this be back in stock?",
+        "availability check",
+        "can i order this right now?",
+        "is this item currently available?",
+        "tell me if you have this product",
+        "inventory status"
+      ]
+    },
+    {
+      "tag": "faq_restock_sold_out_items",
+      "patterns": [
+        "do you restock sold out items?",
+        "do you restock sold out items",
+        "restock sold out items",
+        "question about restock sold out items",
+        "help with restock sold out items",
+        "restock sold out",
+        "sold out restock",
+        "item restocked"
+      ]
+    },
+    {
+      "tag": "faq_when_will_an_out_of_stock_item_return",
+      "patterns": [
+        "when will an out of stock item return?",
+        "when will an out of stock item return",
+        "out stock item return",
+        "question about out stock item return",
+        "help with out stock item return"
+      ]
+    },
+    {
+      "tag": "faq_use_multiple_coupons_on_one_order",
+      "patterns": [
+        "can i use multiple coupons on one order?",
+        "can i use multiple coupons on one order",
+        "use multiple coupons one order",
+        "question about use multiple coupons one order",
+        "help with use multiple coupons one order",
+        "multiple coupons",
+        "use two coupons",
+        "combine coupons"
+      ]
+    },
+    {
+      "tag": "faq_why_is_my_coupon_not_working",
+      "patterns": [
+        "why is my coupon not working?",
+        "why is my coupon not working",
+        "coupon not working",
+        "question about coupon not working",
+        "help with coupon not working",
+        "coupon code not working",
+        "why is promo code invalid",
+        "discount code failed",
+        "unable to apply coupon",
+        "promo code not applying",
+        "voucher is showing invalid",
+        "why was my coupon rejected?",
+        "error applying discount",
+        "my coupon expired?",
+        "code is not accepted",
+        "help with coupon code",
+        "fix promo code error"
+      ]
+    },
+    {
+      "tag": "faq_how_do_promo_codes_work",
+      "patterns": [
+        "how do promo codes work?",
+        "how do promo codes work",
+        "promo codes work",
+        "question about promo codes work",
+        "help with promo codes work",
+        "how to apply discount?",
+        "apply promo code",
+        "how to use coupon?",
+        "where do i enter my voucher code?",
+        "using discount code",
+        "steps to apply offer",
+        "how to redeem coupon?",
+        "where to put discount code",
+        "how do i get the offer discount",
+        "redeem generic voucher",
+        "applying promotions at checkout",
+        "help redeeming code"
+      ]
+    },
+    {
+      "tag": "faq_sell_gift_cards",
+      "patterns": [
+        "do you sell gift cards?",
+        "do you sell gift cards",
+        "sell gift cards",
+        "question about sell gift cards",
+        "help with sell gift cards",
+        "gift card",
+        "buy gift card",
+        "gift voucher"
+      ]
+    },
+    {
+      "tag": "faq_send_an_order_as_a_gift",
+      "patterns": [
+        "can i send an order as a gift?",
+        "can i send an order as a gift",
+        "send order gift",
+        "question about send order gift",
+        "help with send order gift",
+        "send as gift",
+        "gift order",
+        "gift message"
+      ]
+    },
+    {
+      "tag": "faq_is_gift_wrapping_available",
+      "patterns": [
+        "is gift wrapping available?",
+        "is gift wrapping available",
+        "gift wrapping available",
+        "question about gift wrapping available",
+        "help with gift wrapping available",
+        "gift wrap available?",
+        "do you do gift wrapping",
+        "can i send this as a gift?",
+        "gift packing option",
+        "how to wrap as gift",
+        "does this come in a gift box?",
+        "gift wrap please",
+        "is there a gifting option?",
+        "wrap this item",
+        "send to friend as gift",
+        "gift presentation options",
+        "hide price for gift"
+      ]
+    },
+    {
+      "tag": "faq_how_do_store_credits_work",
+      "patterns": [
+        "how do store credits work?",
+        "how do store credits work",
+        "store credits work",
+        "question about store credits work",
+        "help with store credits work"
+      ]
+    },
+    {
+      "tag": "faq_use_store_credit_with_a_coupon",
+      "patterns": [
+        "can i use store credit with a coupon?",
+        "can i use store credit with a coupon",
+        "use store credit coupon",
+        "question about use store credit coupon",
+        "help with use store credit coupon",
+        "store credit with coupon",
+        "combine credit and coupon",
+        "coupon plus credit"
+      ]
+    },
+    {
+      "tag": "faq_transfer_store_credit_to_another_account",
+      "patterns": [
+        "can i transfer store credit to another account?",
+        "can i transfer store credit to another account",
+        "transfer store credit another account",
+        "question about transfer store credit another account",
+        "help with transfer store credit another account",
+        "transfer store credit",
+        "send credit to account",
+        "move store credit"
+      ]
+    },
+    {
+      "tag": "faq_how_do_loyalty_points_work",
+      "patterns": [
+        "how do loyalty points work?",
+        "how do loyalty points work",
+        "loyalty points work",
+        "question about loyalty points work",
+        "help with loyalty points work"
+      ]
+    },
+    {
+      "tag": "faq_when_do_reward_points_expire",
+      "patterns": [
+        "when do reward points expire?",
+        "when do reward points expire",
+        "reward points expire",
+        "question about reward points expire",
+        "help with reward points expire"
+      ]
+    },
+    {
+      "tag": "faq_merge_two_accounts",
+      "patterns": [
+        "can i merge two accounts?",
+        "can i merge two accounts",
+        "merge two accounts",
+        "question about merge two accounts",
+        "help with merge two accounts",
+        "merge accounts",
+        "combine accounts",
+        "two accounts"
+      ]
+    },
+    {
+      "tag": "faq_is_my_personal_data_safe",
+      "patterns": [
+        "is my personal data safe?",
+        "is my personal data safe",
+        "personal data safe",
+        "question about personal data safe",
+        "help with personal data safe"
+      ]
+    },
+    {
+      "tag": "payment_methods_available",
+      "patterns": [
+        "what payment methods are available?",
+        "payment methods available",
+        "how can i pay?",
+        "what are the payment options?",
+        "payment methods"
+      ]
+    },
+    {
+      "tag": "about_company",
+      "patterns": [
+        "tell us about your company",
+        "what is this company?",
+        "about your company",
+        "who are you guys?",
+        "company details"
+      ]
+    },
+    {
+      "tag": "faq_how_long_replacement_take",
+      "patterns": [
+        "how long does replacement take?",
+        "when will i get my replacement?",
+        "replacement time",
+        "how many days for replacement",
+        "replacement delivery time",
+        "when will replacement arrive?",
+        "timeline for replacement",
+        "is my replacement shipped?",
+        "replacement processing time",
+        "when can i expect the new item?",
+        "how fast is the replacement process?",
+        "where is my replacement?"
+      ]
+    },
+    {
+      "tag": "faq_product_specifications",
+      "patterns": [
+        "what are the specifications?",
+        "product details",
+        "tell me about the specifications",
+        "specs of the product",
+        "give me more info on this item",
+        "product dimensions and details",
+        "where are the details?",
+        "tech specs",
+        "can you give me product information?",
+        "what is this made of?",
+        "product features",
+        "detailed description please"
+      ]
+    },
+    {
+      "tag": "faq_another_size_color",
+      "patterns": [
+        "do you have this in another size/color?",
+        "different sizes",
+        "other colors available?",
+        "size and color options",
+        "can i get a different size?",
+        "do you have this in red?",
+        "is there a larger size?",
+        "what other colors do you have?",
+        "alternative colors",
+        "size not listed",
+        "color variations",
+        "can i exchange for another size?"
+      ]
+    },
+    {
+      "tag": "faq_original_authentic",
+      "patterns": [
+        "is this original/authentic?",
+        "is it original?",
+        "authentic product?",
+        "genuine product",
+        "are your products fake?",
+        "is this a replica?",
+        "100% original?",
+        "how do i know it is authentic?",
+        "brand warranty included?",
+        "is it a real branded product?",
+        "authentic guarantee",
+        "original manufacturer?"
+      ]
+    },
+    {
+      "tag": "faq_offers_available",
+      "patterns": [
+        "any offers available?",
+        "what are the current offers?",
+        "deals running right now",
+        "promotions or discounts",
+        "discount offers",
+        "is there a sale going on?",
+        "how to get a discount?",
+        "promotions available",
+        "coupon code offers",
+        "any seasonal sale?",
+        "how can i save money on this?",
+        "best current deals"
+      ]
+    },
+    {
+      "tag": "faq_cashback_not_received",
+      "patterns": [
+        "cashback not received",
+        "when will i get my cashback?",
+        "where is my cashback",
+        "cashback missing",
+        "did not get my cashback",
+        "cashback delay",
+        "how long for cashback to reflect?",
+        "wallet cashback missing",
+        "credit not added",
+        "where is the promo cashback?",
+        "cashback failed",
+        "help with missing cashback"
+      ]
+    },
+    {
+      "tag": "faq_talk_to_human_agent",
+      "patterns": [
+        "i want to talk to a human agent",
+        "speak to a human",
+        "human agent please",
+        "customer care executive",
+        "transfer me to an agent",
+        "talk to real person",
+        "connect me to live support",
+        "i need a live agent",
+        "bypass bot to agent",
+        "chat with a person",
+        "give me a real customer service rep",
+        "live chat with human"
+      ]
+    },
+    {
+      "tag": "faq_raise_complaint",
+      "patterns": [
+        "how to raise a complaint?",
+        "lodge a complaint",
+        "i want to complain",
+        "raise a ticket",
+        "file a grievance",
+        "where to submit a complaint?",
+        "complain about an order",
+        "issue ticket creation",
+        "submit negative feedback",
+        "report a serious issue",
+        "how do i escalate a complaint?",
+        "register a complaint"
+      ]
+    },
+    {
+      "tag": "faq_issue_not_resolved",
+      "patterns": [
+        "my issue is not resolved",
+        "issue still pending",
+        "problem not fixed",
+        "unresolved ticket",
+        "my problem persists",
+        "still facing the same issue",
+        "nobody fixed my problem",
+        "customer support failed me",
+        "not happy with the resolution",
+        "reopen my ticket",
+        "issue continues to happen",
+        "why is my issue not solved?"
+      ]
+    },
+    {
+      "tag": "faq_add_to_wishlist",
+      "patterns": [
+        "add to wishlist",
+        "how to add item to wishlist?",
+        "save for later",
+        "how do i favorite an item?",
+        "put in wishlist",
+        "save product",
+        "wishlist instructions",
+        "create a wishlist",
+        "how to mark as favorite",
+        "keep this item for later",
+        "add this to my list",
+        "wishlist process"
+      ]
+    },
+    {
+      "tag": "faq_cancel_subscription",
+      "patterns": [
+        "cancel subscription",
+        "stop my subscription",
+        "end membership",
+        "how to cancel subscription",
+        "unsubscribe from service",
+        "terminate membership",
+        "cancel recurring payment",
+        "stop charging me",
+        "i want to cancel my plan",
+        "subscription cancellation process",
+        "opt out of subscription",
+        "how to stop auto renew"
+      ]
+    },
+    {
+      "tag": "faq_change_language_currency",
+      "patterns": [
+        "change language/currency",
+        "how to change language?",
+        "change currency",
+        "different language options",
+        "how do i switch language?",
+        "can i pay in usd?",
+        "switch to local currency",
+        "language settings",
+        "where are localization settings?",
+        "app language change",
+        "display in another currency",
+        "update region settings"
+      ]
+    },
+    {
+      "tag": "faq",
+      "patterns": [
+        "refund policy",
+        "how do refunds work",
+        "when will i get my refund",
+        "how long does a refund take",
+        "when is refund processed",
+        "refund status question",
+        "can i get a refund",
+        "what is your refund time",
+        "how do i return a product",
+        "how can i return a product",
+        "how do i start a return",
+        "what is the return policy",
+        "can i exchange an item",
+        "how many days do i have to return",
+        "is return pickup available",
+        "who pays for return shipping",
+        "reset password",
+        "how do i reset my password",
+        "i forgot my password",
+        "password reset help",
+        "how can i change my email",
+        "how do i change my username",
+        "can i change my username",
+        "how can i update my username",
+        "how do i update my address",
+        "how do i change my phone number",
+        "how can i delete my account",
+        "how do i edit my profile",
+        "my account is locked",
+        "i cannot log in",
+        "login problem",
+        "what are the delivery charges",
+        "do you charge for shipping",
+        "is there free shipping",
+        "do you provide free shipping",
+        "what is the shipping fee",
+        "how long is delivery",
+        "what are the delivery times",
+        "do you offer same day delivery",
+        "do you deliver on weekends",
+        "can i schedule delivery",
+        "how do i change delivery address",
+        "can i update the shipping address",
+        "what payment methods do you accept",
+        "which payment options are available",
+        "do you offer cash on delivery",
+        "can i pay with upi",
+        "can i pay using wallet",
+        "is emi available",
+        "why did my payment fail",
+        "was my card charged twice",
+        "can i get invoice for my order",
+        "how do i download invoice",
+        "how to contact support",
+        "how can i contact support",
+        "how do i reach customer care",
+        "how do i chat with support",
+        "what are support hours",
+        "do you have email support",
+        "do you have phone support",
+        "how do i report a damaged item",
+        "my order arrived damaged",
+        "what if item is missing from order",
+        "how do i report wrong product",
+        "why was my order delayed",
+        "why was my order cancelled",
+        "can i reorder a past purchase",
+        "how do i save items to wishlist",
+        "can i use multiple coupons",
+        "why is my coupon not working",
+        "how do promo codes work",
+        "is gift wrapping available",
+        "do you sell gift cards",
+        "can i send order as a gift",
+        "do you ship internationally",
+        "which locations do you deliver to",
+        "can i change size after ordering",
+        "how do i check product availability",
+        "is my personal data safe",
+        "how do i unsubscribe from emails",
+        "how can i update notification settings",
+        "do you restock sold out items",
+        "when will an out of stock item return",
+        "can i cancel one item from my order",
+        "can i return only one item from my order",
+        "is signature required on delivery",
+        "how do i get shipping updates",
+        "can i add item to an existing order",
+        "can i split delivery for my order",
+        "what happens if delivery is missed",
+        "how many attempts will courier make",
+        "can i change delivery slot",
+        "how do preorders work",
+        "can i cancel a preorder",
+        "when will my preorder be charged",
+        "how do store credits work",
+        "can i use store credit with coupon",
+        "what is wallet balance",
+        "can i transfer store credit",
+        "how do loyalty points work",
+        "when do reward points expire",
+        "can i merge two accounts",
+        "how do i verify my email",
+        "why am i not receiving otp",
+        "how do i turn on two factor login",
+        "how can i update gst details",
+        "how do bulk orders work",
+        "do you offer business invoices",
+        "how long does replacement take?",
+        "when will i get my replacement?",
+        "replacement time",
+        "how many days for replacement",
+        "what are the specifications?",
+        "product details",
+        "tell me about the specifications",
+        "specs of the product",
+        "do you have this in another size/color?",
+        "different sizes",
+        "other colors available?",
+        "size and color options",
+        "is this original/authentic?",
+        "is it original?",
+        "authentic product?",
+        "genuine product",
+        "any offers available?",
+        "what are the current offers?",
+        "deals running right now",
+        "promotions or discounts",
+        "cashback not received",
+        "when will i get my cashback?",
+        "where is my cashback",
+        "cashback missing",
+        "i want to talk to a human agent",
+        "speak to a human",
+        "human agent please",
+        "customer care executive",
+        "transfer me to an agent",
+        "how to raise a complaint?",
+        "lodge a complaint",
+        "i want to complain",
+        "raise a ticket",
+        "my issue is not resolved",
+        "issue still pending",
+        "problem not fixed",
+        "unresolved ticket",
+        "add to wishlist",
+        "how to add item to wishlist?",
+        "save for later",
+        "how do i favorite an item?",
+        "cancel subscription",
+        "stop my subscription",
+        "end membership",
+        "how to cancel subscription",
+        "change language/currency",
+        "how to change language?",
+        "change currency",
+        "different language options",
+        "when will i get my refund?",
+        "refund timeframe",
+        "what is your return policy?",
+        "return rules",
+        "is this product available?",
+        "product stock status",
+        "what are the delivery charges?",
+        "how much for shipping",
+        "do you offer same-day delivery?",
+        "same day delivery please",
+        "why is my order delayed?",
+        "my order is late",
+        "do you deliver to my location?",
+        "can you ship to my address",
+        "coupon code not working",
+        "why is promo code invalid",
+        "how to apply discount?",
+        "apply promo code",
+        "contact customer care",
+        "customer service contact",
+        "gift wrap available?",
+        "do you do gift wrapping",
+        "how long does a refund take?",
+        "when is the refund processed?",
+        "how much time for refund?",
+        "refund timeline",
+        "is my refund initiated?",
+        "where is my refund?",
+        "refund processing time",
+        "when can i expect my money back?",
+        "refund status update",
+        "when will my money be returned?",
+        "i have not received my refund",
+        "delay in refund processing",
+        "how do returns work?",
+        "can i return this item?",
+        "what are the conditions for returns?",
+        "return period",
+        "how many days do i have to return?",
+        "is return possible?",
+        "tell me about returning items",
+        "policy for returning a product",
+        "can i send it back?",
+        "return eligibility",
+        "replacement delivery time",
+        "when will replacement arrive?",
+        "timeline for replacement",
+        "is my replacement shipped?",
+        "replacement processing time",
+        "when can i expect the new item?",
+        "how fast is the replacement process?",
+        "where is my replacement?",
+        "is it in stock?",
+        "do you have this available?",
+        "check stock for me",
+        "out of stock?",
+        "when will this be back in stock?",
+        "availability check",
+        "can i order this right now?",
+        "is this item currently available?",
+        "tell me if you have this product",
+        "inventory status",
+        "give me more info on this item",
+        "product dimensions and details",
+        "where are the details?",
+        "tech specs",
+        "can you give me product information?",
+        "what is this made of?",
+        "product features",
+        "detailed description please",
+        "can i get a different size?",
+        "do you have this in red?",
+        "is there a larger size?",
+        "what other colors do you have?",
+        "alternative colors",
+        "size not listed",
+        "color variations",
+        "can i exchange for another size?",
+        "are your products fake?",
+        "is this a replica?",
+        "100% original?",
+        "how do i know it is authentic?",
+        "brand warranty included?",
+        "is it a real branded product?",
+        "authentic guarantee",
+        "original manufacturer?",
+        "shipping fee",
+        "is delivery free?",
+        "do i have to pay for shipping?",
+        "shipping cost",
+        "tell me the shipping charges",
+        "delivery fees explained",
+        "cost of delivery",
+        "how much is shipping to my house?",
+        "shipping rates",
+        "extra charges for delivery",
+        "can i get it today?",
+        "is same day shipping an option?",
+        "deliver today",
+        "today delivery",
+        "fastest delivery possible",
+        "get product today",
+        "instant delivery",
+        "same day dispatch",
+        "express same day delivery",
+        "can you ship it right now?",
+        "has not arrived yet",
+        "when is my delayed order coming?",
+        "order taking too long",
+        "delivery date passed",
+        "order is stuck",
+        "shipping delay",
+        "my package is running late",
+        "why is delivery taking so much time?",
+        "where is my delayed package?",
+        "track delayed order",
+        "locations deliver",
+        "serviceable areas",
+        "do you ship here?",
+        "shipping to my zip code?",
+        "is delivery available in my area?",
+        "check pincode for delivery",
+        "where do you deliver?",
+        "country wide delivery?",
+        "city delivery check",
+        "do you cover my state?",
+        "discount offers",
+        "is there a sale going on?",
+        "how to get a discount?",
+        "promotions available",
+        "coupon code offers",
+        "any seasonal sale?",
+        "how can i save money on this?",
+        "best current deals",
+        "discount code failed",
+        "unable to apply coupon",
+        "promo code not applying",
+        "voucher is showing invalid",
+        "why was my coupon rejected?",
+        "error applying discount",
+        "my coupon expired?",
+        "code is not accepted",
+        "help with coupon code",
+        "fix promo code error",
+        "how to use coupon?",
+        "where do i enter my voucher code?",
+        "using discount code",
+        "steps to apply offer",
+        "how to redeem coupon?",
+        "where to put discount code",
+        "how do i get the offer discount",
+        "redeem generic voucher",
+        "applying promotions at checkout",
+        "help redeeming code",
+        "did not get my cashback",
+        "cashback delay",
+        "how long for cashback to reflect?",
+        "wallet cashback missing",
+        "credit not added",
+        "where is the promo cashback?",
+        "cashback failed",
+        "help with missing cashback",
+        "talk to real person",
+        "connect me to live support",
+        "i need a live agent",
+        "bypass bot to agent",
+        "chat with a person",
+        "give me a real customer service rep",
+        "live chat with human",
+        "file a grievance",
+        "where to submit a complaint?",
+        "complain about an order",
+        "issue ticket creation",
+        "submit negative feedback",
+        "report a serious issue",
+        "how do i escalate a complaint?",
+        "register a complaint",
+        "my problem persists",
+        "still facing the same issue",
+        "nobody fixed my problem",
+        "customer support failed me",
+        "not happy with the resolution",
+        "reopen my ticket",
+        "issue continues to happen",
+        "why is my issue not solved?",
+        "how to contact support?",
+        "need help from support",
+        "talk to support",
+        "reach out to customer service",
+        "contact details for support",
+        "give me customer care number",
+        "email address for support",
+        "how do i get in touch with you?",
+        "help desk contact",
+        "service phone number",
+        "put in wishlist",
+        "save product",
+        "wishlist instructions",
+        "create a wishlist",
+        "how to mark as favorite",
+        "keep this item for later",
+        "add this to my list",
+        "wishlist process",
+        "can i send this as a gift?",
+        "gift packing option",
+        "how to wrap as gift",
+        "does this come in a gift box?",
+        "gift wrap please",
+        "is there a gifting option?",
+        "wrap this item",
+        "send to friend as gift",
+        "gift presentation options",
+        "hide price for gift",
+        "unsubscribe from service",
+        "terminate membership",
+        "cancel recurring payment",
+        "stop charging me",
+        "i want to cancel my plan",
+        "subscription cancellation process",
+        "opt out of subscription",
+        "how to stop auto renew",
+        "how do i switch language?",
+        "can i pay in usd?",
+        "switch to local currency",
+        "language settings",
+        "where are localization settings?",
+        "app language change",
+        "display in another currency",
+        "update region settings"
+      ]
+    }
+  ]
+}

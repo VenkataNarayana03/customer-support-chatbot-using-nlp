@@ -1,0 +1,382 @@
+[
+  {
+    "question": "How do I reset my password?",
+    "answer": "Click the Forgot Password option on the sign in page and follow the reset link sent to your registered email."
+  },
+  {
+    "question": "I forgot my password and cannot log in.",
+    "answer": "Use the Forgot Password option to create a new password. If the reset email does not arrive, check your spam folder or try again after a few minutes."
+  },
+  {
+    "question": "How do I change my email address?",
+    "answer": "Open your account settings and update your email address from the profile section. You may need to verify the new address before it becomes active."
+  },
+  {
+    "question": "How do I change my username?",
+    "answer": "You can change your username from your account or profile settings if that option is available in your app. Open your profile, edit the username field, and save the changes."
+  },
+  {
+    "question": "How do I update my phone number?",
+    "answer": "You can update your phone number from profile settings in your account. A one time verification code may be sent to confirm the change."
+  },
+  {
+    "question": "How do I change my delivery address after placing an order?",
+    "answer": "You can change the delivery address before the order is packed. Go to your order details and choose Edit Address if the option is available."
+  },
+  {
+    "question": "My account is locked. What should I do?",
+    "answer": "Wait a few minutes and try again, then reset your password if needed. If the issue continues, contact support so we can help unlock your account."
+  },
+  {
+    "question": "How do I delete my account?",
+    "answer": "Please contact customer support from the help section to request account deletion. We may verify your identity before processing the request."
+  },
+  {
+    "question": "How do I verify my email address?",
+    "answer": "Open the verification email we sent after signup and click the confirmation link. If you cannot find it, request a new verification email from account settings."
+  },
+  {
+    "question": "Why am I not receiving the OTP?",
+    "answer": "Please confirm that your phone number is correct, wait a minute, and request a new OTP. Network delays can sometimes slow delivery."
+  },
+  {
+    "question": "How can I update notification settings?",
+    "answer": "Go to account settings and open Notifications to manage email, SMS, and app alert preferences."
+  },
+  {
+    "question": "How can I unsubscribe from promotional emails?",
+    "answer": "Click the unsubscribe link in any marketing email or update your communication preferences in account settings."
+  },
+  {
+    "question": "Where can I track my order?",
+    "answer": "You can track your order from your dashboard under the Orders section. Tracking updates appear after the package is dispatched."
+  },
+  {
+    "question": "How do I get shipping updates?",
+    "answer": "Shipping updates are available on the order details page and may also be sent by email or SMS if notifications are enabled."
+  },
+  {
+    "question": "How long does delivery take?",
+    "answer": "Standard delivery usually takes 3 to 7 business days depending on your location and product availability."
+  },
+  {
+    "question": "Do you offer same day delivery?",
+    "answer": "Same day delivery is available only for selected products and eligible pin codes. Availability is shown during checkout."
+  },
+  {
+    "question": "Do you deliver on weekends?",
+    "answer": "Weekend delivery depends on your courier partner and location. The estimated delivery date shown at checkout is the best reference."
+  },
+  {
+    "question": "Can I schedule a delivery slot?",
+    "answer": "Scheduled delivery is supported only for selected locations and products. If available, the option appears during checkout."
+  },
+  {
+    "question": "What are the delivery charges?",
+    "answer": "Delivery charges depend on your location, seller, and total order value. Final shipping costs are shown before payment."
+  },
+  {
+    "question": "Do you provide free shipping?",
+    "answer": "Free shipping may be available on selected offers or when your order crosses the minimum order value."
+  },
+  {
+    "question": "Which locations do you deliver to?",
+    "answer": "We deliver to most serviceable areas. You can check delivery availability by entering your pin code on the product page or at checkout."
+  },
+  {
+    "question": "Do you ship internationally?",
+    "answer": "International shipping is available only for selected products and destinations. Shipping availability is shown during checkout."
+  },
+  {
+    "question": "What happens if I miss the delivery?",
+    "answer": "The courier may attempt delivery again or contact you for rescheduling. If all attempts fail, the package may be returned to the seller."
+  },
+  {
+    "question": "How many delivery attempts will the courier make?",
+    "answer": "Most courier partners make two or three delivery attempts before returning the package. The exact number depends on the courier."
+  },
+  {
+    "question": "Is signature required on delivery?",
+    "answer": "Some high value orders or seller fulfilled shipments may require a signature or OTP confirmation at delivery."
+  },
+  {
+    "question": "Why was my order delayed?",
+    "answer": "Delays can happen because of weather, courier issues, high order volume, address problems, or seller dispatch delays."
+  },
+  {
+    "question": "Why was my order cancelled?",
+    "answer": "Orders may be cancelled because of stock issues, payment problems, seller constraints, or verification failures. The reason is usually shown in your order details."
+  },
+  {
+    "question": "Can I add an item to an existing order?",
+    "answer": "Once an order is placed, items usually cannot be added. You can place a separate order for the additional product."
+  },
+  {
+    "question": "Can I split delivery for my order?",
+    "answer": "Orders may arrive in separate shipments if items are stored in different warehouses or sold by different sellers."
+  },
+  {
+    "question": "Can I reorder a past purchase?",
+    "answer": "Yes, open your order history, find the past order, and use the Buy Again option if the item is still available."
+  },
+  {
+    "question": "Can I cancel my order?",
+    "answer": "Yes, you can cancel your order before it has been shipped. Open the order details page and choose Cancel Order if the option is available."
+  },
+  {
+    "question": "Can I cancel only one item from my order?",
+    "answer": "Yes, if the items are still eligible for cancellation, you can cancel a single item from a multi item order from the order details page."
+  },
+  {
+    "question": "Can I cancel a preorder?",
+    "answer": "Most preorders can be cancelled before dispatch unless the product page states otherwise."
+  },
+  {
+    "question": "How do preorders work?",
+    "answer": "Preorders let you reserve upcoming products before release. The product page shows the expected launch and shipping timeline."
+  },
+  {
+    "question": "When will my preorder be charged?",
+    "answer": "Payment timing depends on the payment method and seller policy. Some orders are charged immediately while others are charged closer to dispatch."
+  },
+  {
+    "question": "How do I return a product?",
+    "answer": "Go to your Orders page, choose the item, and select Return or Replace if the product is still within the return window."
+  },
+  {
+    "question": "What is the return policy?",
+    "answer": "Return eligibility depends on the category, seller policy, and item condition. The product page and order details page show the applicable return window."
+  },
+  {
+    "question": "How many days do I have to return an item?",
+    "answer": "Most eligible items can be returned within 7 to 10 days of delivery, but the exact return window depends on the product category."
+  },
+  {
+    "question": "Can I exchange an item instead of returning it?",
+    "answer": "Exchange is available only for selected items such as size or color variants. If exchange is not available, you can place a new order after return pickup."
+  },
+  {
+    "question": "Is return pickup available?",
+    "answer": "Return pickup is available in many serviceable locations. If pickup is not supported, you may be asked to self ship the item."
+  },
+  {
+    "question": "Who pays for return shipping?",
+    "answer": "If the return is due to a damaged, defective, or wrong item, return shipping is usually free. For other cases, seller policies may apply."
+  },
+  {
+    "question": "How long does a refund take?",
+    "answer": "Refunds are processed automatically once a return is received and inspected. It typically takes 3-5 business days for the amount to reflect in your original payment method. Store credit is available immediately."
+  },
+  {
+    "question": "How do refunds work?",
+    "answer": "After a return or cancellation is approved, we immediately initiate a refund. It will be sent to your original payment method or issued as store credit, so you get your money back faster."
+  },
+  {
+    "question": "Can I get a refund if my order is cancelled?",
+    "answer": "Yes, if your cancelled order was prepaid, the refund is processed automatically to the original payment method or store balance as applicable."
+  },
+  {
+    "question": "My payment failed. What should I do?",
+    "answer": "If the payment failed, please retry with the same or a different payment method. If money was debited, it is usually reversed automatically by your bank."
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept credit cards, debit cards, UPI, net banking, selected wallets, cash on delivery for eligible orders, and EMI on supported products."
+  },
+  {
+    "question": "Do you offer cash on delivery?",
+    "answer": "Cash on delivery is available only for selected locations, products, and order values. The option appears during checkout if eligible."
+  },
+  {
+    "question": "Can I pay with UPI?",
+    "answer": "Yes, UPI is supported for eligible orders. Choose the UPI option at checkout and complete the payment using your preferred app."
+  },
+  {
+    "question": "Can I pay using a wallet?",
+    "answer": "Selected wallets may be available at checkout depending on the seller, product type, and current payment offers."
+  },
+  {
+    "question": "Is EMI available?",
+    "answer": "EMI is available on selected products and eligible cards or financing partners. Options are displayed during checkout when supported."
+  },
+  {
+    "question": "My card was charged twice. What should I do?",
+    "answer": "Please wait for your bank to reconcile the duplicate transaction. If the extra charge is not reversed within the bank timeline, contact support with the payment reference."
+  },
+  {
+    "question": "How do I download an invoice?",
+    "answer": "Open the order details page and select Download Invoice if the seller has generated the invoice."
+  },
+  {
+    "question": "Can I get a GST invoice?",
+    "answer": "GST invoices are available for eligible products and sellers. Enter your GST details during checkout if the option is shown."
+  },
+  {
+    "question": "How do I update GST details?",
+    "answer": "GST details can usually be added during checkout for eligible business purchases. Some sellers do not support GST invoices."
+  },
+  {
+    "question": "How do bulk orders work?",
+    "answer": "Bulk order support depends on the seller and available stock. For large quantities, contact support or the seller before placing the order."
+  },
+  {
+    "question": "Do you offer business invoices?",
+    "answer": "Business invoices may be available for eligible orders depending on the seller and product category."
+  },
+  {
+    "question": "How can I contact support?",
+    "answer": "You can contact support through live chat, email, or the help section in your account. Available channels may vary by issue type."
+  },
+  {
+    "question": "What are your support hours?",
+    "answer": "Chat support is generally available throughout the day, while response times for email may vary based on queue volume."
+  },
+  {
+    "question": "Do you have phone support?",
+    "answer": "Phone support may be available for selected issues. If available, the callback option appears in the help section."
+  },
+  {
+    "question": "How do I report a damaged item?",
+    "answer": "Open the order details page, choose the affected item, and submit a return or damage report with photos if requested."
+  },
+  {
+    "question": "What if an item is missing from my order?",
+    "answer": "Please check if the order was split into multiple shipments. If the item is still missing, report it from the order details page."
+  },
+  {
+    "question": "What should I do if I received the wrong product?",
+    "answer": "Go to the order details page and select Return or Replace. Choose Wrong Item Received and follow the instructions."
+  },
+  {
+    "question": "I received the wrong item.",
+    "answer": "Go to the order details page and select Return or Replace. Choose Wrong Item Received and follow the instructions."
+  },
+  {
+    "question": "What should I do if I received an expired product?",
+    "answer": "Open the order details page and choose Return or Replace. Select Expired Product as the issue and upload clear photos of the product and expiry date if requested."
+  },
+  {
+    "question": "Can I change the size after ordering?",
+    "answer": "Size changes are usually not possible after the order is placed. You may need to cancel the order before shipment or request a return or exchange after delivery."
+  },
+  {
+    "question": "How do I check product availability?",
+    "answer": "Stock availability is shown on the product page. If the item is out of stock, you may be able to set a restock alert."
+  },
+  {
+    "question": "Do you restock sold out items?",
+    "answer": "Many products are restocked when inventory becomes available, but restocking depends on the seller and product type."
+  },
+  {
+    "question": "When will an out of stock item return?",
+    "answer": "Restock timelines vary by seller and supplier. If available, enable notifications on the product page to get updates."
+  },
+  {
+    "question": "Can I use multiple coupons on one order?",
+    "answer": "Usually only one coupon or promotion can be applied to an order unless a specific offer says otherwise."
+  },
+  {
+    "question": "Why is my coupon not working?",
+    "answer": "Coupons may fail because of expiry, seller restrictions, minimum order value, payment conditions, or category exclusions."
+  },
+  {
+    "question": "How do promo codes work?",
+    "answer": "Enter the promo code at checkout and the discount will apply if the order meets the offer conditions."
+  },
+  {
+    "question": "Do you sell gift cards?",
+    "answer": "Gift cards may be available during promotions or on selected storefronts depending on the seller."
+  },
+  {
+    "question": "Can I send an order as a gift?",
+    "answer": "Gift options depend on the seller and product type. If supported, gift messaging or gift wrap options appear during checkout."
+  },
+  {
+    "question": "Is gift wrapping available?",
+    "answer": "Gift wrapping is available only for selected items and sellers. The option appears during checkout when supported."
+  },
+  {
+    "question": "How do store credits work?",
+    "answer": "Store credits are applied automatically or can be selected at checkout depending on your account balance and order eligibility."
+  },
+  {
+    "question": "Can I use store credit with a coupon?",
+    "answer": "In many cases, store credit can be combined with a coupon, but some promotions may restrict combined use."
+  },
+  {
+    "question": "Can I transfer store credit to another account?",
+    "answer": "Store credit is usually non transferable and can only be used by the account where it was issued."
+  },
+  {
+    "question": "How do loyalty points work?",
+    "answer": "Eligible purchases earn reward points that can be redeemed on future orders based on the program rules."
+  },
+  {
+    "question": "When do reward points expire?",
+    "answer": "Reward point expiry depends on the program terms. You can check the expiry date in your rewards section if the feature is available."
+  },
+  {
+    "question": "Can I merge two accounts?",
+    "answer": "Account merging is usually not supported. Please contact support if you need help accessing an older account."
+  },
+  {
+    "question": "Is my personal data safe?",
+    "answer": "We use standard security practices to protect account and payment information. Please also keep your password private and use trusted devices."
+  },
+  {
+    "question": "What payment methods are available?",
+    "answer": "We accept various payment methods including Credit/Debit Cards, UPI, Net Banking, and Cash on Delivery."
+  },
+  {
+    "question": "Tell us about your company",
+    "answer": "We are a fast and reliable e-commerce delivery company committed to bringing your favorite products straight to your doorstep with speed and safety."
+  },
+  {
+    "question": "How long does replacement take?",
+    "answer": "A replacement usually takes 3-5 business days after your returned item has been picked up."
+  },
+  {
+    "question": "What are the specifications?",
+    "answer": "You can find the detailed specifications on the product page under the 'Product Details' or 'Specifications' section."
+  },
+  {
+    "question": "Do you have this in another size/color?",
+    "answer": "Available sizes and colors are shown on the product page. If it is greyed out, it is currently out of stock."
+  },
+  {
+    "question": "Is this original/authentic?",
+    "answer": "Yes, we only sell 100% authentic and original products sourced directly from brands or authorized distributors."
+  },
+  {
+    "question": "Any offers available?",
+    "answer": "You can check our homepage or the 'Offers' section for the latest deals and discounts."
+  },
+  {
+    "question": "Cashback not received",
+    "answer": "Cashback is usually credited within 24-48 hours after your order has been successfully delivered. Please check your wallet or bank statement."
+  },
+  {
+    "question": "I want to talk to a human agent",
+    "answer": "I can connect you to a live chat agent. Please type exactly what your issue is so I can route you to the correct department."
+  },
+  {
+    "question": "How to raise a complaint?",
+    "answer": "To raise a complaint, go to your Orders -> Help -> Raise an issue. Alternatively, you can describe your issue here and I will take a note of it."
+  },
+  {
+    "question": "My issue is not resolved",
+    "answer": "I apologize for the inconvenience. Let me review your issue history and connect you with a senior support executive for faster resolution."
+  },
+  {
+    "question": "Add to wishlist",
+    "answer": "You can add an item to your wishlist by clicking the heart icon next to the product image on the product page."
+  },
+  {
+    "question": "Cancel subscription",
+    "answer": "To cancel a subscription, visit My Account > Subscriptions, select the active subscription, and click Cancel."
+  },
+  {
+    "question": "Change language/currency",
+    "answer": "You can change your preferred language and currency from your Profile Settings > Preferences menu."
+  }
+]
