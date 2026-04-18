@@ -319,7 +319,7 @@ The optimized model achieved **83.86% accuracy** on intent classification:
 ### Model Performance Analysis
 
 | Metric | Value | Benchmark | 
-|---------|--------|-----------|--------|
+|---------|--------|-----------|
 | **Accuracy** | **83.86%** | 75% target | 
 | **F1 Score** | **0.818** | 0.75+ target | 
 | **Precision** | **0.836** | 0.75+ target | 
