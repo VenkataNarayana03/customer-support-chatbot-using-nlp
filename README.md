@@ -300,8 +300,8 @@ Training scripts are located in `backend/training/`:
 ### Training Results
 The optimized model achieved **83.86% accuracy** on intent classification:
 
-| Metric | Value | Achievement |
-|--------|--------|-------------|
+| Metric | Value | 
+|--------|--------|
 | **Accuracy** | **83.86%** |
 | **F1 Score** | **0.818** |
 | **Precision** | **0.836** | 
@@ -335,54 +335,13 @@ The optimized model achieved **83.86% accuracy** on intent classification:
 
 ### Model Performance Analysis
 
-| Metric | Value | Benchmark | Status |
-|---------|--------|-----------|--------|
+| Metric | Value | Benchmark | 
+|---------|--------|-----------|
 | **Accuracy** | **83.86%** | 75% target | 
 | **F1 Score** | **0.818** | 0.75+ target | 
 | **Precision** | **0.836** | 0.75+ target | 
 | **Recall** | **0.839** | 0.75+ target | 
 | **Loss** | **1.778** | <2.0 target |
 
-### Training Progression
 
-| Epoch | Accuracy | F1 Score | Precision | Recall | Loss |
-|--------|----------|-----------|-----------|--------|------|
-| 2.2 | 69.06% | 0.649 | 0.683 | 0.690 | 2.930 |
-| 4.4 | **83.86%** | **0.818** | **0.836** | **0.839** | **1.778** |
-
-### Data Quality Metrics
-
-| Metric | Value | Improvement |
-|--------|--------|-----------|
-| **Total Patterns** | 1,665 | +38% vs original |
-| **Min Patterns/Intent** | 20 | +82% vs original |
-| **Max Patterns/Intent** | 35 | -91% vs original |
-| **Average Patterns/Intent** | 23.5 | +79% vs original |
-| **Class Balance** | Excellent | Reduced variance |
-
-### Model Evaluation Details
-
-- **Training Samples**: 1,442 (86.6% of dataset)
-- **Evaluation Samples**: 223 (13.4% of dataset)
-- **Number of Classes**: 71 intent categories
-- **Best Checkpoint**: Step 400 (Epoch 4.4)
-- **Early Stopping**: Patience = 3, triggered at epoch 6
-- **Training Time**: ~6 minutes with convergence
-
-### Performance Comparison
-
-| Version | Accuracy | F1 Score | Improvement |
-|----------|----------|-----------|-------------|
-| **Original Model** | 31.58% | 0.160 | Baseline |
-| **Improved Model** | 50.00% | 0.457 | +58% accuracy |
-| **Optimized Model** | **83.86%** | **0.818** | **+68% accuracy** |
-
-### Real-World Performance Indicators
-
-- **Intent Recognition**: 83.86% accuracy for user queries
-- **Customer Satisfaction**: Significantly improved response accuracy
-- **Support Efficiency**: Reduced fallback responses by ~50%
-- **Response Quality**: High precision (83.6%) reduces false positives
-- **Coverage**: High recall (83.9%) captures most user intents
-- **Production Ready**: Model meets enterprise-grade accuracy standards
 
