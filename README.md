@@ -12,6 +12,23 @@ An intelligent customer support chatbot powered by machine learning, featuring i
 - **Real-time Communication**: WebSocket-like instant messaging experience
 - **Session Management**: Maintains conversation context across multiple turns
 
+## Screenshots
+
+### Chat Interface
+The chatbot provides a clean, modern interface for customer support interactions:
+
+![Chat Interface 1](screenshots/chat_interface_1.png)
+*Initial greeting and basic conversation flow*
+
+![Chat Interface 2](screenshots/chat_interface_2.png)
+*Advanced conversation with refund policy inquiry*
+
+### Support Widget
+The support assistant widget provides easy access to help:
+
+![Support Widget](screenshots/support_widget.png)
+*Compact support widget with online status indicator*
+
 ## Architecture
 
 ### Frontend (React + Vite)
