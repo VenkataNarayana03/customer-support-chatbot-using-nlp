@@ -21,13 +21,13 @@ The chatbot provides a clean, modern interface for customer support interactions
 *Initial greeting and basic conversation flow*
 
 ![Chat Interface 2](screenshots/chat_interface_2.png)
-*Advanced conversation with refund policy inquiry*
 
 ### Support Widget
 The support assistant widget provides easy access to help:
 
 ![Support Widget](screenshots/support_widget.png)
 *Compact support widget with online status indicator*
+
 
 ## Architecture
 
